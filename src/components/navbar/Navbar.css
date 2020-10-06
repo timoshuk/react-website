@@ -46,7 +46,7 @@
   justify-content: center;
   list-style: none;
   text-align: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .nav-item {
@@ -59,6 +59,7 @@
 }
 
 .nav-links {
+  font-size: 26px;
   color: #fff;
   display: flex;
   align-items: center;
@@ -109,7 +110,7 @@
 
   .nav-links:hover {
     color: #f00946;
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: all 0.3s ease;
   }
 
